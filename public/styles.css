@@ -1,0 +1,36 @@
+body {
+  background: #B8DAE0;
+  color: #137B8F;
+  font: normal normal 14px/1.2 Helvetica;
+}
+
+.kitty-list li {
+  display: inline-block;
+  width: 5rem;
+}
+
+.kitty-list a,
+.kitty-list a:visited {
+  text-decoration: none;
+  color: #137B8F;
+}
+
+.kitty-list a:hover {
+  color: #161B1C;
+}
+
+.primary-content {
+  margin: 0 auto;
+  width: 850px;
+}
+
+.kitty-name {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.kitty-image {
+  display: block;
+  margin: 1rem auto;
+  width: 40%;
+}
