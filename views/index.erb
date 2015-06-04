@@ -1,0 +1,6 @@
+<h1>Hi! Which kitty would you like to meet?</h1>
+<ul class="kitty-list">
+  <% @kitties.each do |kitty| %>
+    <li><a href="<%= kitty.link_path %>"><%= kitty.name %></a></li>
+  <% end %>
+</ul>
