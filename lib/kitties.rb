@@ -18,7 +18,7 @@ module Kitties
     end
 
     def link_path
-      "/#{name}"
+      "/kitty/#{name}"
     end
 
     def self.all_the_cats

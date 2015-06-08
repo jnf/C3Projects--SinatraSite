@@ -10,7 +10,7 @@ class MySite < Sinatra::Base
     erb :index
   end
 
-  get "/:name" do
+  get "/kitty/:name" do
     @kitty  = Kitties::Kitty.new(params[:name])
     @title  = "Nice to meet you, #{ @kitty.name }"
 
